@@ -1,0 +1,29 @@
+body{
+    font-family: 'Bodoni Moda', serif;
+}
+h1{
+    font-size: 50px;
+}
+#mission{
+    color: rgba(255, 166, 0, 0.809);
+}
+.flexible-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.half-width img{
+    width: 500px;
+    height: 500px;
+    
+}
