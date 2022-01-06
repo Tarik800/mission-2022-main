@@ -1,6 +1,11 @@
 body{
     font-family: "Yeseva One", sans-serif;
 }
+.side-border{
+    border-left: 7px solid tomato;
+    border-image-slice: 1;
+    padding-left: 2%;
+}
 h1{
     font-size: 50px;
 }
@@ -70,6 +75,7 @@ h4{
 .devolop img{
     width: 400px;
     height: 350px;
+    background-position: left;
     
 }
 .devolop{
@@ -81,15 +87,34 @@ h4{
     background-repeat: no-repeat;
     margin-left: 5%;
     background-position: left;
-    background-size: 30% 50%;
+    background-size:225px;
 }
 .four{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
-    
+    backdrop-filter: ;
     background-size: 10% 20%;
 }
 
+.five{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 250px;
+}
+.safe-corona{
+    color: tomato;
+}
+.back-ground{
+    background-color: black;
+}
+.futer-color{
+    color: tomato;
+}
+.futer-font{
+    text-align: center;
+    color: white;
+}
 
 
